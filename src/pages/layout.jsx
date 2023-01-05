@@ -1,21 +1,12 @@
-import { NavLink, Outlet } from "react-router-dom";
-import { Box, HStack } from "@chakra-ui/react";
+import { Outlet } from "react-router-dom";
+import { Box } from "@chakra-ui/react";
+import Tabs from "../components/tab-bar";
+import Navbar from "../components/navbar";
 export default function Layout(){
     return (
         <Box padding="2">
-          <HStack>
-            <NavLink to="/trending">
-              {({ isActive }) => (
-                <Box
-                  padding="2"
-                  borderWidth="thick"
-                  borderBottomColor={isActive ? "blue.700" : "blue.50"}
-                >
-                  Trending
-                </Box>
-              )}
-            </NavLink>
-          </HStack>
+          <Navbar />
+        <Tabs />
           <Outlet />
         </Box>
     );

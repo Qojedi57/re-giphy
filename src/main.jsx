@@ -6,6 +6,9 @@ import {ChakraProvider} from "@chakra-ui/react"
 ;
 import App from './App';
 import './index.css';
+import Trending from "./pages/trending";
+import Search from "./pages/search";
+import Random from "./pages/random";
 
 const router = createBrowserRouter([
 {
@@ -14,8 +17,20 @@ const router = createBrowserRouter([
   children:[
     {
       path:"trending",
-      element:<div>This is trending</div>
+      element:<Trending />
+      
+    },
+
+    {
+      path:"search",
+      element:<Search/>
+    },
+
+    {
+      path:"random",
+      element:<Random/>
     }
+
   ]
 }
 ]
