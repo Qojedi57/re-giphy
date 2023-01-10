@@ -1,6 +1,6 @@
 function Trending(){
     return (
-        <div>This is trending</div>
+        <div>This is the trending page</div>
     )
 }
 

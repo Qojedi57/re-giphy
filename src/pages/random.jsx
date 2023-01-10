@@ -1,6 +1,6 @@
 function Random(){
     return (
-        <div>This is trending</div>
+        <div>This is the random page</div>
     )
 }
 

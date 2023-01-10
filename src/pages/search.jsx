@@ -1,6 +1,6 @@
 function Search(){
     return (
-        <div>This is trending</div>
+        <div>This is the searchpage</div>
     )
 }
 
