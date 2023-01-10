@@ -1,6 +1,6 @@
 function Search(){
     return (
-        <div>This is the searchpage</div>
+        <div>This is the Search page</div>
     )
 }
 

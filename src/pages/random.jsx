@@ -1,6 +1,6 @@
 function Random(){
     return (
-        <div>This is the random page</div>
+        <div>This is the Random page</div>
     )
 }
 
